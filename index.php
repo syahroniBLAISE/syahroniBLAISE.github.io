@@ -1,5 +1,5 @@
 <?php 
-include 'function.php';
+// include 'function.php';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -118,17 +118,19 @@ include 'function.php';
     </div>
     <div class="row">
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <?php for( $i = 1; $i <= $jmlServices; $i++ ) :?>    
+    <?php
+    //  for( $i = 1; $i <= $jmlServices; $i++ ) :?>    
       <div class="col-md-3 text-center">
         <div class="service-media"> 
-          <img src="img/services/service-<?= $i; ?>.jpg" alt=" "> 
+          <img src="img/services/service-1.jpg" alt=" "> 
         </div>
         <div class="service-desc">
-          <h3><?= $tema[$i]; ?></h3>
-          <p><?= $isi[$i]; ?></p>
+          <h3>SABLON MANUAL</h3>
+          <p>Terima jasa sablon manual dengan harga terjangkau dan harga bersahabat, terima kodian ataupun satuan, dengan standar kualitas distro.</p>
         </div>
       </div>
-    <?php endfor ?>
+    <?php 
+    // endfor ?>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     </div>
   </div>
@@ -160,20 +162,22 @@ include 'function.php';
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
-<?php for( $i = 1; $i <= 24; $i++ ) :?>
+<?php 
+// for( $i = 1; $i <= 24; $i++ ) :?>
     
-       <div class="col-sm-6 col-md-4 <?= $filter[$i]; ?>">
+       <div class="col-sm-6 col-md-4 premium">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/bigs-<?= $i; ?>.jpg" title="<?= $data[$i]; ?>" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/bigs-1.jpg" title="Coklat" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4><?= $data[$i]; ?></h4>
+                <h4>Coklat</h4>
               </div>
               <img src="img/portfolio/premium/big-<?= $i; ?>.jpg" class="img-responsive" 
-              alt="<?= $data[$i]; ?>"></a></div>
+              alt="Coklat"></a></div>
           </div>
         </div>
 
-<?php endfor  ?>
+<?php 
+// endfor  ?>
 
       </div>
     </div>
@@ -196,12 +200,14 @@ include 'function.php';
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
-          <?php for( $i = 1; $i <= $jmlArtikel; $i++ ) :?>
+          <?php 
+          // for( $i = 1; $i <= $jmlArtikel; $i++ ) :?>
             <div class="item">
-              <p><?= $judul[$i]; ?></p>
-              <p><?= $artikel[$i]; ?></p>
+              <p>ketebalan kaos polos</p>
+              <p>ketebalan kaso polos di bedakan berdasarkan gramasi atau berat dari kaos itu sendiri seperti 20s, 24s, 30s, 40s.yang menandakan semakin tebal angka sebelum huruf s maka semakin tipis kaosnya</p>
             </div>
-          <?php endfor ?>
+          <?php 
+          // endfor ?>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
           
@@ -245,7 +251,7 @@ include 'function.php';
         </div>
       </div>
     </div>
-    <div class="col-md-8 col-md-offset-2">
+    <!-- <div class="col-md-8 col-md-offset-2">
       <h3>Leave us a message</h3>
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
@@ -271,7 +277,7 @@ include 'function.php';
       </form>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Footer Section -->
 <div id="footer">
   <div class="container text-center">
