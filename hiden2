@@ -1,0 +1,13 @@
+<!-- <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".premium">Premium Confort</a></li>
+              <li><a href="#" data-filter=".polka">Corak Polka</a></li>
+              <li><a href="#" data-filter=".misty">Corak Misty</a></li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div> -->
