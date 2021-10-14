@@ -15,9 +15,12 @@
   <link rel="stylesheet" href="floating-whatsapp-master/floating-wpp.min.css">
 
 
+
   <!-- Bootstrap -->
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
 
   <!-- Slider
     ================================================== -->
@@ -114,9 +117,6 @@
           POLOS, SWEATER, JERSEY dll</p>
       </div>
       <div class="row">
-        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <?php
-    //  for( $i = 1; $i <= $jmlServices; $i++ ) :?>
         <div class="col-md-3 text-center">
           <div class="service-media">
             <img src="img/services/service-1.jpg" alt=" ">
@@ -154,7 +154,7 @@
 
         <div class="col-md-3 text-center">
           <div class="service-media">
-            <img src="img/services/service-4.jp2" alt=" ">
+            <img src="img/services/service-4.jpg" alt=" ">
           </div>
           <div class="service-desc">
             <h3>KAOS, SWEATER, JERSYEY</h3>
@@ -163,8 +163,6 @@
           </div>
         </div>
 
-        <?php 
-    // endfor ?>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
       </div>
     </div>
@@ -173,32 +171,50 @@
   <div id="portfolio">
     <div class="container">
       <div class="section-title text-center center">
-        <h2>Link Terkait</h2>
-        <hr>
         <p>
           <h3>Berikut link gallery projeck yang pernah kami kerjakan beserta produck yang kami jual :</h3>
         </p>
+        <hr>
       </div>
 
 
       <!-- bagian linkg ke kaos dan konveksi -->
       <div class="categories">
-        <ul>
-          <li>
-            <ol class="type">
-              <li><a href="https://partnersablon.com/kaos/" target="_blank">KAOS POLOS</a></li>
-              <li><a href="https://partnersablon.com/konveksi/" target="_blank">PRODUK KONVEKSI</a></li>
-            </ol>
-          </li>
-        </ul>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div>
+          <ul>
+            <li>
+              <ol class="type">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-12">
+                      <div class="thumbnail">
+                        <img src="img/services/service-4.jp2" width="250" alt="...">
+                        <div class="caption">
+                          <p><a href="https://partnersablon.com/kaos/" target="_blank" class="btn btn-primary"
+                              role="button">KAOS</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-12">
+                      <div class="thumbnail">
+                        <img src="img/services/service-4.jp2" width="250" alt="...">
+                        <div class="caption">
+                          <p><a href="https://partnersablon.com/konveksi/" target="_blank" class="btn btn-primary"
+                              role="button">KONVEKSI</a> </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </div>
       </div>
       <!-- bagian linkg ke kaos dan konveksi -->
 
@@ -252,10 +268,15 @@
       </div>
 
       <!-- map google -->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3045443182887!2d100.35916591425233!3d-0.9195019355941586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9c9b1c13405%3A0x4ac11adb3cd1eebf!2spartner%20sablon%20padang!5e0!3m2!1sid!2sid!4v1634064562851!5m2!1sid!2sid"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <!-- floating-wpp section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3045443182887!2d100.35916591425233!3d-0.9195019355941586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9c9b1c13405%3A0x4ac11adb3cd1eebf!2spartner%20sablon%20padang!5e0!3m2!1sid!2sid!4v1634064562851!5m2!1sid!2sid"
+              width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
 
       <!-- Footer Section -->
       <div id="footer">
@@ -293,6 +314,16 @@
       <script type="text/javascript" src="js/bootstrap.js"></script>
       <script type="text/javascript" src="js/jquery.isotope.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+      </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+      </script>
 
 </body>
 
